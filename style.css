@@ -1,0 +1,52 @@
+*{
+   margin:0;
+   padding:0;
+   font-family: 'poppins',sans-serif;
+   box-sizing:border-box;
+
+}
+a{
+   text-decoration: none;
+   color: #1cdae7;
+}
+img{
+   cursor: pointer;
+}
+.flex-div{
+   display: flex;
+   align-items:center;
+}
+nav{
+   padding: 10px 2%;
+   justify-content: space-between;
+   box-shadow: 0 0 10px rgb(241, 236, 236);
+   background: black;
+   position: static;
+   top: 0;
+   z-index: 10;
+}
+.nav-middle img{
+width: 2px;
+margin-right: 2px;
+}
+.nav-middle .user-icon{
+   width: 75px;
+   border-radius: 1%;
+   margin-right: 0;
+}
+.nav-left .logo{
+   width: 200px;
+}
+.nav-right .search-box{
+   border: 1px solid #ccc;
+   margin-right: 15px;
+   padding: 4px 8px;
+   border-radius: 25px;
+}
+.nav-right .search-box input{
+   width: 200px;
+   border: 0;
+   outline: 0;
+   background: transparent;
+}
+/*------ main--- */
